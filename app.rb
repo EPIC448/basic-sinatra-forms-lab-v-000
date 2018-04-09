@@ -22,4 +22,4 @@ class App < Sinatra::Base
 end
 
 # Notes   Create forms in newteam.erb
-  # Create route in apps the responds to /team in newteam
+  # Create route in apps the responds to /team in newteam.erb
