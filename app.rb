@@ -8,6 +8,7 @@ class App < Sinatra::Base
 
 
        post'/team' do
+              binding.pry
          @name = params["name"]
          @name = params["coach"]
          @name = params["pg"]
