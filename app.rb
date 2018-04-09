@@ -2,12 +2,12 @@ require 'sinatra/base'
 require 'pry'
 class App < Sinatra::Base
 
-#get infor the server... (send to view)
+#get infor the server.=> to Browser.. (send to view)
        get'/newteam' do
          erb :newteam
        end
 
-# post infor to sever.
+# post infor to .
        post'/team' do
               binding.pry
          @name = params["name"]
