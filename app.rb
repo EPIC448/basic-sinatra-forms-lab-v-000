@@ -9,7 +9,6 @@ class App < Sinatra::Base
 
 # post infor Browser => server.
        post'/team' do
-              binding.pry
          @name = params["name"]
          @coach = params["coach"]
          @pg = params["pg"]
