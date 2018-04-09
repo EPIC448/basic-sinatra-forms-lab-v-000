@@ -23,3 +23,4 @@ end
 
 # Notes   Create forms in newteam.erb
   # Create route in apps the responds to /team in newteam.erb
+  # use those created documents in  team.erb
