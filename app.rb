@@ -20,3 +20,6 @@ class App < Sinatra::Base
        end
 
 end
+
+# Notes   Create forms in newteam.erb
+  # 
