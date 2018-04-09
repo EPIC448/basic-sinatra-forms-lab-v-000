@@ -8,8 +8,7 @@ class App < Sinatra::Base
 
 
        post'/team' do
-              binding.pry
-
+         site_name = params["name"]
           erb :team
        end
 
