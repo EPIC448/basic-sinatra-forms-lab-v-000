@@ -6,7 +6,7 @@ class App < Sinatra::Base
          erb :newteam
        end
 
-
+# post infor to sever.
        post'/team' do
               binding.pry
          @name = params["name"]
