@@ -11,11 +11,11 @@ class App < Sinatra::Base
        post'/team' do
               binding.pry
          @name = params["name"]
-         @name = params["coach"]
-         @name = params["pg"]
-         @name = params["sf"]
-         @name = params["pf"]
-         @name = params["c"]
+         @coach = params["coach"]
+         @pg = params["pg"]
+         @sf = params["sf"]
+         @pf = params["pf"]
+         @c = params["c"]
           erb :team
        end
 
