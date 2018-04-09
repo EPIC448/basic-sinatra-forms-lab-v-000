@@ -2,18 +2,13 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
 
-       get'/' do
-         erb :team
+       get'/newteam' do
+         erb :newteam
        end
 
 
-       get '/newteam' do
+       get'/newteam' do
           erb :newteam
-       end
-
-       post '/team' do
-          erb :team
-
        end
 
 end
